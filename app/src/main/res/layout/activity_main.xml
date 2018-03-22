@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="idv.wei.loginprac.MainActivity"
+    android:orientation="horizontal">
+
+
+    <Button
+        android:id="@+id/btlogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="登入"
+        tools:layout_editor_absoluteX="108dp"
+        tools:layout_editor_absoluteY="175dp" />
+
+    <Button
+        android:id="@+id/btlogout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="登出"
+        tools:layout_editor_absoluteX="108dp"
+        tools:layout_editor_absoluteY="175dp" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btlogin"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="107dp"
+        android:text="登入中"
+        android:textSize="100sp" />
+
+
+</RelativeLayout>
